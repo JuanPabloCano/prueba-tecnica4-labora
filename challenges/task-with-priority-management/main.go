@@ -152,7 +152,7 @@ func main() {
 		input := scanner.Text()
 		switch {
 		case input == "exit":
-			return // use return to exit the function, or use break with a loop label to exit the loop
+			return
 
 		case input == "min":
 			minimum := fh.Minimum()
